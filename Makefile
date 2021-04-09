@@ -1,7 +1,7 @@
 MAIN=.
 src=$(MAIN)/dev
 materialize = $(MAIN)/node_modules/materialize-css
-uglifydir = $(MAIN)/node_modules/uglifyjs/bin
+uglifydir = $(MAIN)/node_modules/uglify-js/bin
 nodesassdir = $(MAIN)/node_modules/node-sass/bin
 
 all: css/app.css js/app.js fonts/*
@@ -14,7 +14,7 @@ js/app.js:
 	cp -r $(src)/audiojs $(MAIN)/js/audiojs
 
 fonts/*:
-	cp $(materialize)/font/roboto/* $(MAIN)/font/roboto/
+	cp $(materialize)/fonts/roboto/* $(MAIN)/font/roboto/
 
 clean:
 	rm -rf $(MAIN)/css/*

@@ -5,8 +5,8 @@
   "main": "index.html",
   "dependencies": {
     "materialize-css": "^0.97.3",
-    "node-sass": "^3.4.2",
-    "uglifyjs": "^2.4.10"
+    "node-sass": "^5.0.0",
+    "uglify-js": "^3.13.3"
   },
   "devDependencies": {},
   "scripts": {
